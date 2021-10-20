@@ -1,0 +1,27 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27/09/2021, 18:34:02
+    Author     : E7440
+*/
+
+html {
+  /*familias tipográficas*/
+
+  --font-2: "Montserrat", sans-serif;
+  --font-1: "Abril Fatface", sans-serif;
+
+  /* Variables tipográficas */
+
+  --text-caption: 14px;
+  --text-note: 16px;
+  --text-base: 20px;
+  --text-subheader: 24px;
+  --text-title: 48px;
+  --text-headline: 72px;
+  --text-display: 96px;
+  --text-jumbo: 184px;
+}

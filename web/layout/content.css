@@ -1,0 +1,144 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27/09/2021, 19:48:43
+    Author     : E7440
+*/
+.content {
+  padding-top: var(--spacer-m);
+  padding-bottom: var(--spacer-m);
+}
+
+.content img{
+  position: absolute;
+  width: 1349px;
+  height: 645px;
+  top: 0;
+  left: 0;
+}
+.content p{
+  z-index: 1;
+  position: absolute;
+  letter-spacing: 0.4em;
+  width: 129px;
+  height: 48px;
+  left: 620px;
+  top: 210px;
+  color: var(--primary);
+}
+
+.i_logo img{
+ position: relative;
+ width: 170px;
+ height: 54px;
+ left: 590px;
+ top: 118px;
+ display: inline-block;
+}
+
+.login-form{
+    position: absolute;
+    margin-top: 30vh;
+    margin-left: 87vh;
+    font-size: var(--text-base);
+    line-height: 1.8;
+}
+
+.form_div{
+    position: relative;
+    height: 30px;
+    margin-bottom: 2rem;
+}
+
+.form_input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: var(--text-note);
+    font-family: var(--font-2);
+    color: var(--primary);
+    border: 1px solid var(--primary);
+    background-color: transparent;
+    border-radius: 0.3em;
+    outline: none;
+}
+
+/*
+.form_label{
+    position: absolute;
+    left: 0.5rem;
+    top: 0.3rem;
+    padding: 0 .25rem;
+    pointer-events: none;
+    font-family: var(--font-2);
+    font-size: var(--text-note);
+    color: var(--primary);
+    transition: 0.5s;
+}
+*/
+
+.form_button{
+    display: block;
+    margin-left: 90px;
+    padding: .25rem 1rem;
+    outline: none;
+    border: none;
+    background-color: var(--primary);
+    font-size: var(--text-caption);
+    font-family: var(--font-2);
+    border-radius: 0.3em;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.form_button:hover{
+    box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.25);
+}
+
+.message{
+    z-index: 1;
+    width: 240px;
+    height: 50px;
+    background-color: transparent;
+    font-size: var(--text-caption);
+    font-family: var(--font-2);
+    border-radius: 0.3em;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    transition: .3s;
+    left: 0px;
+    position: absolute;
+    top: 30px;
+}
+
+.message p{
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 150px;
+    color: var(--primary);
+    width: 250px;
+    text-align: center; 
+}
+
+/*
+.form_input:focus ~ .form_label,
+.form_input:valid ~ .form_label
+{
+    top: -1.5rem;
+    left: 0;
+    color: var(--primary);
+    font-size: var(--text-caption);
+}
+
+*/
+
+
+
+
+
+

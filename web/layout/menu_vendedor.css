@@ -1,0 +1,234 @@
+.container img{
+  position: absolute;
+  width: 170px;
+  height: 54px;
+  left: 27px;
+  top: 70px;
+  z-index: var(--z-index-logo);
+}
+
+.navigation-vendedor {
+    position: fixed;
+    width: 238px;
+    height: 643px;
+    left: 0px;
+    top: 0px;
+    background: #FF7C02;
+    transition: transform 0.5s;
+    overflow: hidden;
+}
+
+.navigation-vendedor ul{
+    position: absolute;
+    top: 323px;
+    left: 0;
+    width: 100%;
+}
+
+.navigation-vendedor ul li{
+    position: relative;
+    font-family: var(--font-2);
+    width: 83%;
+    list-style: none;
+}
+
+.navigation-vendedor ul li:nth-child(1){
+    margin-bottom: 40px;
+    font-weight: bold;
+    pointer-events: none;
+}
+
+.navigation-vendedor ul li a{
+    position: relative;
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: var(--primary);
+    line-height: 45px;
+    text-align: center;
+}
+
+.options{
+    position: absolute;
+    width: 300px;
+    height: 570px;
+    left: 890px;
+    top: 28px;
+
+    border: 1px solid #FFFFFF;
+    border-radius: 0.7em;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.options p{
+  z-index: 1;
+  position: absolute;
+  width: 259px;
+ height: 128px;
+ left: 22px;    
+ top: 28px;
+ font-size: 38px;
+ line-height: 48px;
+ font-family: var(--font-1);
+ color: var(--secondary);
+ text-align: center;
+}
+
+.options ul{
+    position: absolute;
+    top: 223px;
+    left: -15px;
+    width: 100%;
+}
+
+.options ul li{
+    position: relative;
+    font-family: var(--font-2);
+    width: 83%;
+    list-style: none;
+}
+
+.options ul li a{
+    position: relative;
+    display: block;
+    width: 40%;
+    left: 90px;
+    text-decoration: none;
+    color: #000000;
+    line-height: 45px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.options ul li a:hover{
+    color: var(--secondary-light);
+}
+
+.vendors-table{
+    position: absolute;
+    width: 550px;
+    height: 270px;
+    left: 320px;
+    top: 28px;
+
+    border: 1px solid #FFFFFF;
+    border-radius: 0.7em;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.table {
+    --bs-table-bg: transparent;
+    --bs-table-accent-bg: transparent;
+    --bs-table-striped-color: #212529;
+    --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
+    --bs-table-active-color: #212529;
+    --bs-table-active-bg: rgba(0, 0, 0, 0.1);
+    --bs-table-hover-color: #212529;
+    --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #CDB581;
+    vertical-align: top;
+    border-color: #dee2e6;
+    text-align: center;
+}
+
+.vendors-table .form_button_1{
+    display: block;
+    color: var(--primary);
+    z-index: 1;
+    position: absolute;
+    top: 210px;
+    left: 30px;
+    padding: .25rem 1rem;
+    outline: none;
+    border: #000000;
+    background-color: #FFA800;
+    font-size: var(--text-caption);
+    font-family: var(--font-2);
+    border-radius: 0.3em;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.vendors-table .form_button_1:hover{
+    box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.25);
+}
+
+.vendors-table .form_button_2{
+    position: absolute;
+    z-index: 1;
+    color: var(--primary);
+    top: 210px;
+    left: 150px;
+    padding: .25rem 1rem;
+    outline: none;
+    border: none;
+    background-color: #FFA800;
+    font-size: var(--text-caption);
+    font-family: var(--font-2);
+    border-radius: 0.3em;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.vendors-table .form_button_2:hover{
+    box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.25);
+}
+
+.vendors-table .form_button_3{
+    display: block;
+    position: absolute;
+    color: var(--primary);
+    z-index: 1;
+    top: 210px;
+    left: 270px;
+    margin-left: 10px;
+    padding: .25rem 1rem;
+    outline: none;
+    border: #000000;
+    background-color: #FFA800;
+    font-size: var(--text-caption);
+    font-family: var(--font-2);
+    border-radius: 0.3em;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.vendors-table .form_button_3:hover{
+    box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.25);
+}
+
+.productos{
+    position: absolute;
+    width: 400px;
+    height: 270px;
+    left: 400px;
+    top: 348px;
+
+    border: 1px solid #E1A052;
+    background-color: #F2C84B;
+    border-radius: 0.7em;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.productos p{
+    z-index: 1;
+    position: absolute;
+    width: 259px;
+    height: 128px;
+    left: 22px;    
+    top: 28px;
+    font-size: 38px;
+    line-height: 48px;
+    font-family: var(--font-1);
+    color: var(--secondary);
+    text-align: center;
+}
+

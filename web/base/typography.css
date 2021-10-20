@@ -1,0 +1,60 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27/09/2021, 18:53:18
+    Author     : E7440
+*/
+
+/* General tipografía */
+
+body {
+  font-family: var(--font-1);
+  line-height: 1.5;
+}
+
+p {
+  font-family: var(--font-2);
+  margin-bottom: 1em;
+}
+
+/* Escala tipográfica */
+
+.text-jumbo {
+  font-size: var(--text-jumbo);
+}
+
+.text-display {
+  font-size: var(--text-display);
+}
+
+.text-headline {
+  font-size: var(--text-headline);
+}
+
+.text-title {
+  font-size: var(--text-title);
+}
+
+.text-subheader {
+  font-size: var(--text-subheader);
+}
+
+.text-body {
+  font-size: var(--text-body);
+}
+
+.text-note {
+  font-size: var(--text-note);
+}
+
+.text-caption {
+  font-size: var(--text-caption);
+}
+
+/*.text-small {
+  font-size: var(--text-2xs);
+  text-transform: uppercase;
+}*/
